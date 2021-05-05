@@ -12,7 +12,7 @@
     },
     "description": "Helpers for forming filter for orm entities",
     "version": "0.1.0",
-    "name": "shen/bitrix-ui-helper",
+    "name": "manao/ui-helpers",
     "require": {
         "composer/installers": "~1.0",
         "php": ">=7.1"
@@ -21,7 +21,7 @@
         "phpunit/phpunit": "^9.5"
     },
     "extra": {
-        "module-name": "manao.ui.helpers"
+        "bitrix-dir": "local"
     },
     "license": "MIT",
     "type": "bitrix-d7-module"
