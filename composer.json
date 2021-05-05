@@ -1,0 +1,28 @@
+{
+    "authors": [
+        {
+            "name": "Shen",
+            "email": "matych57@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Manao\\UI\\Helpers\\": "lib"
+        }
+    },
+    "description": "Helpers for forming filter for orm entities",
+    "version": "0.1.0",
+    "name": "shen/bitrix-ui-helper",
+    "require": {
+        "composer/installers": "~1.0",
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "extra": {
+        "module-name": "manao.ui.helpers"
+    },
+    "license": "MIT",
+    "type": "bitrix-d7-module"
+}
